@@ -9,6 +9,6 @@ if (isset($state->x->asset)) {
 }
 
 // Load `test.php` file if `TEST` value is `'x.{name}'`
-if ($test && 'x.{name}' === TEST && is_file($test = __DIR__ . D . 'test.php')) {
+if ($test && 'x.' . basename(__DIR__) === TEST && is_file($test = __DIR__ . D . 'test.php')) {
     require $test;
 }
