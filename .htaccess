@@ -1,4 +1,19 @@
-# Grant direct access to files with extension `.css`, `.js` and `.png` in this folder
-<Files ~ '[.](css|js|png)$'>
+<Files 'index.css'>
+  Allow from all
+</Files>
+
+<Files 'index.js'>
+  Allow from all
+</Files>
+
+<Files 'index.png'>
+  Allow from all
+</Files>
+
+<Files 'index.min.css'>
+  Allow from all
+</Files>
+
+<Files 'index.min.js'>
   Allow from all
 </Files>

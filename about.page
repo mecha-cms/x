@@ -1,10 +1,10 @@
 ---
-title: Your Extension Title Goes Here
-description: Your extension description goes here.
-image: /lot/x/your-extension-name-goes-here/index.png
-author: Your Name Goes Here
+title: {title}
+description: {description}
+image: /lot/x/{name}/index.png
+author: {author}
 type: Markdown
-version: 1.0.0
+version: {version}
 ...
 
-Your extension documentation goes here.
+{content}

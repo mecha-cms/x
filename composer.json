@@ -1,0 +1,5 @@
+{
+  "description": "{description}",
+  "license": "GPL-3.0-or-later",
+  "name": "{vendor}/x.{name}"
+}
