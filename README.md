@@ -7,9 +7,9 @@ Development
 -----------
 
 ~~~ sh
-$ cd /srv/http
-$ mkdir -p lot/x/extension-name && cd $_
-$ git clone https://github.com/mecha-cms/x --depth 1 .
+cd /srv/http
+mkdir -p lot/x/extension-name && cd $_
+git clone https://github.com/mecha-cms/x --depth 1 .
 ~~~
 
 Delete this `README.md` file, then rename `.README.md` file to `README.md`.
